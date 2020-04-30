@@ -12,9 +12,11 @@ Steps to building:
       https://github.com/marketplace/actions/run-eslint 
       https://github.com/marketplace/actions/run-jest
 4. Update package.json with
-   ``` "scripts": {
+   ```
+   "scripts": {
         "test": "jest"
-     },```
+     },
+    ```
 5. git add, git commit, git push 
 6. Check pass/fail in Actions tab in github
 
