@@ -6,15 +6,14 @@ name: CI
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-   eslint:
+  eslint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: stefanoeb/eslint-action@1.0.2:
-  
+      - uses: stefanoeb/eslint-action@1.0.2
