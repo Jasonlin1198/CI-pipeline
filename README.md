@@ -7,14 +7,14 @@ Runs pipeline on any pushes to repo
 Steps to building:
 
 1. addition.js holds summation function
-2. addition.test.js holds Jest test: install jest using npm install --save-dev jest
+2. addition.test.js holds Jest test: install jest using '''npm install --save-dev jest'''
 3. Create github action workflow with lint.yml, format used from: 
       https://github.com/marketplace/actions/run-eslint 
       https://github.com/marketplace/actions/run-jest
 4. Update package.json with
-    "scripts": {
+   ''' "scripts": {
         "test": "jest"
-     },
+     },'''
 5. git add, git commit, git push 
 6. Check pass/fail in Actions tab in github
 
@@ -22,6 +22,6 @@ Steps to building:
 Install ESLint locally:
 https://eslint.org/docs/user-guide/getting-started
 
-1. npm install eslint --save-dev
-2. npx eslint --init
-3. npx eslint yourfile.js
+1. '''npm install eslint --save-dev'''
+2. '''npx eslint --init'''
+3. '''npx eslint yourfile.js'''
